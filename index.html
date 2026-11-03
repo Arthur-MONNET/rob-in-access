@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <meta name="robots" content="noindex">
+    <meta name="description" content="Accède à ton dressing privé Rob-in.">
+    <title>Rob-in · Accès au dressing</title>
+    <link rel="icon" href="./rob-in.svg" type="image/svg+xml">
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 1.25rem;
+        background: #f8f7f4;
+        color: #26231f;
+        font: 1rem/1.6 system-ui, sans-serif;
+      }
+      main {
+        width: min(100%, 33rem);
+        border: 1px solid #e0d9cf;
+        border-radius: 1.25rem;
+        background: #fffdfa;
+        padding: clamp(1.5rem, 7vw, 3rem);
+      }
+      img { width: 9rem; height: auto; }
+      h1 { font: 400 clamp(2rem, 7vw, 3.5rem)/1.05 Georgia, serif; margin: 1.5rem 0 1rem; }
+      a {
+        display: inline-block;
+        margin-top: .5rem;
+        padding: .65rem 1.25rem;
+        border-radius: .6rem;
+        background: #514438;
+        color: white;
+        font-weight: 650;
+        text-decoration: none;
+      }
+      a:focus-visible { outline: 3px solid #514438; outline-offset: 4px; }
+      small { display: block; margin-top: 1.25rem; color: #62574d; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="./rob-in.svg" alt="Rob-in">
+      <h1>Ton dressing privé</h1>
+      <p>Retrouve tes vêtements, tes tenues et ton calendrier depuis ton téléphone.</p>
+      <a href="https://poster-resident-seek-elevation.trycloudflare.com/">Ouvrir Rob-in</a>
+      <small>L’accès est réservé au propriétaire du dressing. Le Mac qui héberge Rob-in doit être en ligne.</small>
+    </main>
+  </body>
+</html>

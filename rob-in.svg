@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="45" viewBox="0 0 132 45" role="img" aria-label="Rob-in">
+  <text x="3" y="31" fill="#242321" font-family="Georgia,serif" font-size="35" letter-spacing="-2">Rob-</text>
+  <path d="M75 31 73 9c-.5-4 3.5-4 3.5 0z" fill="#242321"/>
+  <ellipse cx="74.6" cy="9.6" rx=".75" ry="1.9" fill="#fffefa"/>
+  <text x="79" y="31" fill="#242321" font-family="Georgia,serif" font-size="35">n</text>
+  <path d="M75 9.6c13-7 33-4 36 8 5 19-21 22-42 22H19c-13 0-12-8-5-7 3 .4 5 3 4 5" fill="none" stroke="#b96946" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
